@@ -1,0 +1,163 @@
+
+.contact{
+    background-color: var(--bg-color);
+    padding: 0 10rem;
+}
+.heading{
+    font-size: 3rem;
+    text-align: center;
+    margin: 1rem 0;
+}
+.contact h2{
+    margin: 4rem 0 3rem 0;
+    color: var(--text-color);
+    
+}
+.contact form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    margin: 1rem auto;
+    text-align: center;
+    border: 2px solid var(--mode-color);
+    border-radius: 3rem;
+    padding: 2rem 0;
+}
+.contact form .inputbox{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.inputbox input{
+    margin: 1rem 0;
+}
+.contact form .inputbox input,
+.contact form textarea{
+    max-width: 100%;
+    padding: 1.3rem 1.8rem;
+    font-size: 1.3rem;
+    color: black;
+    border-radius: 2rem;
+    border: 2px solid var(--main-color);
+    resize: none;
+}
+.btn{
+    display: inline-block;
+    padding: 1rem 2rem;
+    background: var(--main-color);
+    border-radius: 4rem;
+    font-size: 1.3rem;
+    color: var(--text-color);
+    border: 2px solid transparent;
+    letter-spacing: 0.1rem;
+    text-decoration: none;
+    font-weight: 700;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+.send{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.send h2{
+    font-size: 2.5rem;
+    color: var(--mode-color);
+    margin-right: 1rem;
+}
+
+.btn:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 50px var(--main-color);
+}
+
+@media screen and (max-width: 600px) {
+.contact{
+        display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: auto;
+}
+.contact form{
+    flex-direction: column;
+    margin: 0;
+    gap: 1rem;
+}
+.inputbox{
+    width: 100%;
+}
+.inputbox input{
+    width: 40%;
+    margin: 0.5rem;
+    padding: 0;
+    font-size: 3rem;
+}
+.inputgroup2 textarea{
+    margin: 0;
+    padding: 0;
+    width: 80%;
+    font-size: 0rem;
+    margin-bottom: 1rem;
+}
+.contact form .inputbox input{
+    font-size: 1.6rem;
+}
+.contact form textarea{
+    font-size: 1.6rem;
+}
+.btn{
+    font-size: 1.5rem;
+}
+.send h2{
+    font-size: 2rem;
+    letter-spacing: 0.1rem;
+}
+}
+@media screen and (min-width: 700px) and (max-width: 1200px) {
+    .contact{
+        max-width: 100%;
+        flex-direction: column;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .contact form{
+        justify-content: center;
+        width: 70%;
+        flex-direction: column;
+        margin: 0;
+        gap: 1rem;
+    }
+    .inputgroup{
+        width: 100%;
+    }
+    .inputbox{
+        max-width: 100%;
+    }
+    .inputbox input{
+        width: 30%;
+        margin: 0.5rem;
+        padding: 0;
+        font-size: 2rem;
+    }
+    .inputgroup2{
+        max-width: 90%;
+    }
+    .inputgroup2 textarea{
+        margin: 0;
+        padding: 0;
+        width: 90%;
+        margin-bottom: 1rem;
+    }
+    .btn{
+        font-size: 1.5rem;
+    }
+    .send h2{
+        font-size: 2rem;
+        letter-spacing: 0.1rem;
+    }
+    }

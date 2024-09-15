@@ -1,0 +1,70 @@
+
+.tech{
+    margin: 6rem 0;
+}
+.heading{
+    font-size: 3rem;
+    text-align: center;
+    margin: 3rem 0 2rem 0;
+}
+.techcontainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.logo{
+    height: 4rem;
+    width: auto;
+    background-size: contain;
+    color: var(--main-color);
+}
+.c{
+    font-size: 5rem;
+    text-align: center;
+    color: var(--main-color);
+    
+}
+.techitem{
+    height: 8rem;
+    width: auto;
+    padding: 0.5rem;
+}
+.techitem:hover{
+    color: var(--text-color);
+    transform: scale(1.4)translateY(-5px);
+    box-shadow: 0 0 25px var(--main-color);
+    transition: 0.3s ease-in-out;
+}
+.techitem h3{
+    text-align: center;
+    margin-top: 0.5rem;
+    letter-spacing: 0.175rem;
+}
+
+@media screen and (max-width: 1285px) {
+    .tech{
+        padding: 0 20px;
+    }
+    .heading {
+        font-size: 3rem;
+    }
+
+    .techitem {
+        padding: 0.6rem;
+    }
+    .techcontainer{
+        flex-wrap: wrap;
+    }
+    .logo {
+        height: 4rem;
+        margin: 0 0.7rem;
+    }
+
+    .c {
+        font-size: 4rem;
+    }
+
+    .techitem h3 {
+        font-size: 1.2rem;
+    }
+}

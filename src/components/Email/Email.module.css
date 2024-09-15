@@ -1,0 +1,27 @@
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1.5rem 0;
+    
+}
+
+.email{
+    height: 200px;
+    width:auto;
+    padding: 1rem 2rem;
+    letter-spacing: 0.1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: 2px solid var(--main-color);
+    border-radius: 3rem;
+}
+.email p{
+    font-size: 2rem;
+}
+.tick{
+    color: rgb(23, 239, 12);
+    font-size: 3rem;
+}

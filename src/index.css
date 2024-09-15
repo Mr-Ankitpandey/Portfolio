@@ -1,0 +1,37 @@
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Outfit", Arial, Helvetica, sans-serif;
+}
+
+:root {
+  /* Colors */
+--bg-color : #080808;
+--second-bg-color : #131313;
+--text-color : white;
+--main-color : #00ffee;
+--mode-color : white;
+
+  /* Fonts */
+--font-roboto : "Roboto"
+
+}
+[data-theme = "light"]{
+  --bg-color : rgb(248, 234, 233);
+    --second-bg-color : rgb(241, 213, 157);
+    --text-color : black;
+    --main-color : #ff6f00;
+    --mode-color : black;
+}
+
+@media screen and (max-width: 1285px) {
+    html{
+      font-size: 55%;
+      overflow-x: hidden;
+    }
+    body{
+      overflow-x: hidden;
+    }
+}
